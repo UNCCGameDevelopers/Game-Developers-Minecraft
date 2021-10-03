@@ -1,7 +1,7 @@
 # Manifest for server and plugins
 server:
   name: paper-1.17.1-257.jar
-  download_url: TODO
+  download_url: https://papermc.io/api/v2/projects/paper/versions/1.17.1/builds/257/downloads/paper-1.17.1-257.jar
   version: "1.17.1-257"
 plugins:
   - name: Dynmap-3.2-beta-3-spigot.jar
@@ -26,3 +26,6 @@ plugins:
   - name: Vault.jar
     download_url: TODO
     version: TODO
+  - name: QuickShop-4.0.9.10.jar
+    download_url: TODO
+    version: "4.0.9.10"
