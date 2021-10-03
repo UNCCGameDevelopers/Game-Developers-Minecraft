@@ -26,3 +26,6 @@ plugins:
   - name: Vault.jar
     download_url: TODO
     version: TODO
+  - name: QuickShop-4.0.9.10.jar
+    download_url: TODO
+    version: "4.0.9.10"

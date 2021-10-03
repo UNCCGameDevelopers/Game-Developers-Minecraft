@@ -28,6 +28,10 @@ server/plugins/Towny/backup/
 server/plugins/Towny/data/
 server/plugins/Towny/logs/
 
+# Ignore Quick shop data
+server/plugins/QuickShop/*
+!server/plugins/QuickShop/config.yml
+
 
 *.db
 
