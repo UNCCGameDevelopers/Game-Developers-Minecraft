@@ -32,6 +32,12 @@ server/plugins/Towny/logs/
 server/plugins/QuickShop/*
 !server/plugins/QuickShop/config.yml
 
+# Ignore Luck perms data
+server/plugins/LuckPerms/translations/*
+server/plugins/LuckPerms/yaml-storage/*
+!server/plugins/LuckPerms/yaml-storage/groups/
+!server/plugins/LuckPerms/yaml-storage/tracks/
+
 
 *.db
 
