@@ -188,7 +188,7 @@ mixedeconomy:
   withdraw: eco take {0} {1}
 integration:
   towny:
-    enable: false
+    enable: true
     ignore-disabled-worlds: true
     create:
     - SHOPTYPE
