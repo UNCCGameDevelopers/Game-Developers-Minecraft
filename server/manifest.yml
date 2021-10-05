@@ -29,3 +29,6 @@ plugins:
   - name: QuickShop-4.0.9.10.jar
     download_url: TODO
     version: "4.0.9.10"
+  - name: LuckPerms-Bukkit-5.3.67.jar
+    version: "5.3.67"
+    download_url: TODO
