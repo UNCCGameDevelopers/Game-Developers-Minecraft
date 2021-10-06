@@ -251,10 +251,10 @@ town:
 
   # Limits the maximum amount of bonus blocks a town can buy.
   # This setting does nothing when town.max_purchased_blocks_uses_town_levels is set to true.
-  max_purchased_blocks: '0'
+  max_purchased_blocks: '1000'
 
   # When set to true, the town_level section of the config determines the maximum number of bonus blocks a town can purchase.
-  max_purchased_blocks_uses_town_levels: 'true'
+  max_purchased_blocks_uses_town_levels: 'false'
 
   # maximum number of plots any single resident can own
   max_plots_per_resident: '1000'
@@ -305,7 +305,7 @@ town:
 
   # The maximum townblocks available to a town is (numResidents * ratio).
   # Setting this value to 0 will instead use the level based jump values determined in the town level config.
-  town_block_ratio: '32'
+  town_block_ratio: '128'
 
   # The size of the square grid cell. Changing this value is suggested only when you first install Towny.
   # Doing so after entering data will shift things unwantedly. Using smaller value will allow higher precision,
