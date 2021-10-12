@@ -1761,16 +1761,16 @@ town_ruining:
     # In this state, the town cannot be claimed, but can be looted.
     # The feature prevents mayors from escaping attack/occupation,
     # by deleting then quickly recreating their town.
-    enabled: 'false'
+    enabled: 'true'
 
     # This value determines the maximum duration in which a town can lie in ruins
     # After this time is reached, the town will be completely deleted.
     # Does not accept values greater than 8760, which is equal to one year.
-    max_duration_hours: '72'
+    max_duration_hours: '480'
 
     # This value determines the minimum duration in which a town must lie in ruins,
     # before it can be reclaimed by a resident.
-    min_duration_hours: '4'
+    min_duration_hours: '24'
 
     # If this is true, then after a town has been ruined for the minimum configured time,
     # it can then be reclaimed by any resident who runs /t reclaim, and pays the required price. (price is configured in the eco section)
