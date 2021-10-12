@@ -1590,7 +1590,7 @@ economy:
     # The debt has a ceiling equal to the estimated value of the town (from new town and claims costs)
     # The debt can be repaid using /t deposit x.
     # Once all debt is repaid, the town immediately returns to a normal state.
-    enabled: 'false'
+    enabled: 'true'
 
     # When using bankruptcy is enabled a Town a debtcap.
     # The debt cap is calculated by adding the following:
@@ -1605,7 +1605,7 @@ economy:
 
       # When set to greater than 0.0, this setting will override all other debt calculations and maximums,
       # making all towns have the same debt cap.
-      override: '0.0'
+      override: '1000.0'
 
       # When true the debt_cap.override price will be multiplied by the debtCapModifier in the town_level
       # section of the config. (Ex: debtCapModifier of 3.0 and debt_cap.override of 1000.0 would set
