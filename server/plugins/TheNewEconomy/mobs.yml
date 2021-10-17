@@ -21,7 +21,7 @@ Mobs:
 
   #If using virtual currency. If this is true all money rewards will be dropped as a currency note. If this is false they
   #will be added directly to the player's balance.
-  Note: true
+  Note: false
 
   #Settings relating to item multipliers.
   #Here you may specify multipliers for killing entities with certain items.
