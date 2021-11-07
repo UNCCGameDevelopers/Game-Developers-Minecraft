@@ -2,7 +2,8 @@
 import os
 import sys
 
-DESTINATION_ROOT = "GDCMinecraft:~/minecraft"
+HOST = "GDCMinecraft"
+DESTINATION_ROOT = f"{HOST}:~/minecraft"
 
 def run(command):
     """ Run a system command and ensure that it completed. """
@@ -15,9 +16,14 @@ def run(command):
 
 def copy_file(file_name):
     """ Copy a file over to the destination server."""
-    _, path = file_name.split("server")
+    _, path = file_name.split("server/")
 
-    run(f"scp {file_name} {DESTINATION_ROOT}/{path}")
+    final_destination = f"{DESTINATION_ROOT}/{path}"
+
+    directory = os.path.dirname(final_destination.split(":")[-1])
+
+    run(f"ssh {HOST} 'mkdir -p {directory}'")
+    run(f"scp {file_name} {final_destination}")
 
 
 def main():
