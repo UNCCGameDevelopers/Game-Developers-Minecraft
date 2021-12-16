@@ -1,8 +1,8 @@
 # Manifest for server and plugins
 server:
-  name: paper-1.17.1-257.jar
-  download_url: https://papermc.io/api/v2/projects/paper/versions/1.17.1/builds/257/downloads/paper-1.17.1-257.jar
-  version: "1.17.1-257"
+  name: paper-1.17.1-400.jar
+  download_url: https://papermc.io/api/v2/projects/paper/versions/1.17.1/builds/400/downloads/paper-1.17.1-400.jar
+  version: "1.17.1-400"
 plugins:
   - name: Dynmap-3.2-beta-3-spigot.jar
     download_url: TODO
